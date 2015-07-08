@@ -13,6 +13,7 @@
 		75B1B9931B4CC2FA008DE3D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B1B9921B4CC2FA008DE3D5 /* Images.xcassets */; };
 		75B1B9961B4CC2FA008DE3D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B1B9941B4CC2FA008DE3D5 /* LaunchScreen.xib */; };
 		75B1B9A21B4CC2FB008DE3D5 /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B1B9A11B4CC2FB008DE3D5 /* BouncerTests.swift */; };
+		75B1B9AC1B4CC351008DE3D5 /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B1B9AB1B4CC351008DE3D5 /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		75B1B99B1B4CC2FB008DE3D5 /* BouncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B1B9A01B4CC2FB008DE3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B1B9A11B4CC2FB008DE3D5 /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
+		75B1B9AB1B4CC351008DE3D5 /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		75B1B9881B4CC2FA008DE3D5 /* Bouncer */ = {
 			isa = PBXGroup;
 			children = (
+				75B1B9AB1B4CC351008DE3D5 /* BouncerBehavior.swift */,
 				75B1B98B1B4CC2FA008DE3D5 /* AppDelegate.swift */,
 				75B1B98D1B4CC2FA008DE3D5 /* ViewController.swift */,
 				75B1B98F1B4CC2FA008DE3D5 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				75B1B98E1B4CC2FA008DE3D5 /* ViewController.swift in Sources */,
 				75B1B98C1B4CC2FA008DE3D5 /* AppDelegate.swift in Sources */,
+				75B1B9AC1B4CC351008DE3D5 /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
