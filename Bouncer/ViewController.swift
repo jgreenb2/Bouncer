@@ -32,7 +32,8 @@ class ViewController: UIViewController {
             
             let motionManager = AppDelegate.Motion.Manager
             if motionManager.accelerometerAvailable {
-                motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) { (data, _ ) -> Void in
+                motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
+                    (data, _ ) -> Void in
                     self.bouncer.gravity.gravityDirection = CGVector(dx: data.acceleration.x, dy: -data.acceleration.y)
                 }
             }
